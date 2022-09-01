@@ -9,7 +9,9 @@ body {
     ;
 }
 
-p,h1,h2{
+p,
+h1,
+h2 {
     margin: 0;
     padding: 0;
 }
@@ -43,14 +45,14 @@ p,h1,h2{
     margin-right: 30vw;
 }
 
-a{
+a {
     text-decoration: none;
     font-size: 20px;
     color: #212529;
     font-weight: 400;
 }
 
-h1{
+h1 {
     font-size: 42px;
     line-height: 5vh;
     letter-spacing: 5px;
@@ -59,8 +61,8 @@ h1{
     text-align: center;
     color: #212529;
     background-color: #DEE2E6;
-    padding:3vh 0;
-    
+    padding: 3vh 0;
+
 }
 
 .top-section {
@@ -89,8 +91,7 @@ h1{
 }
 
 
-.name
-{
+.name {
     font-size: 72px;
     letter-spacing: 1px;
     font-weight: 600;
@@ -99,7 +100,7 @@ h1{
 
 }
 
-.tagline{
+.tagline {
     font-size: 32px;
     letter-spacing: 1px;
     font-weight: 400;
@@ -109,7 +110,7 @@ h1{
 
 }
 
-.cards{
+.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 6vw;
@@ -130,7 +131,7 @@ h1{
     transition: 250ms;
 }
 
-.card img{
+.card img {
     object-fit: contain;
     width: 23vw;
     border-top-left-radius: 15px;
@@ -138,21 +139,21 @@ h1{
     margin-bottom: 2vh;
 }
 
-.content{
-    padding:0 1.5vw;
+.content {
+    padding: 0 1.5vw;
 }
 
-h2{
+h2 {
     margin-bottom: 1vh;
     color: #343A40;
 }
 
-p{
-    color:#495057;
+p {
+    color: #495057;
 }
 
-.section-two{
-    background-image:url("assets/pexels-pixabay-371917.jpg");
+.section-two {
+    background-image: url("assets/pexels-pixabay-371917.jpg");
     height: 65vh;
     width: 100%;
     display: flex;
@@ -160,31 +161,31 @@ p{
     justify-content: center;
 }
 
-.section-two *{
+.section-two * {
     margin-left: 15vw;
 }
 
 
-.section-two p{
+.section-two p {
     text-align: left;
     color: #f8f9fa;
     width: 35vw;
 }
 
-.section-two h1{
+.section-two h1 {
     text-align: left;
     color: #f8f9fa;
     background: none;
 }
 
-.description{
+.description {
     font-size: 18px;
     margin-bottom: 5vh;
     line-height: 3vh;
     letter-spacing: .02vw;
 }
 
-.quote-btn{
+.quote-btn {
     width: 14vw;
     height: 5vh;
     font-size: 16px;
@@ -192,52 +193,52 @@ p{
     letter-spacing: 1px;
     border-radius: 20px;
     border: 1px solid white;
-    background:transparent;
+    background: transparent;
     color: #f8f9fa;
     cursor: pointer;
     transition-timing-function: ease-in;
-    transition: color 300ms,background-color 300ms;
+    transition: color 300ms, background-color 300ms;
 
 }
 
-.quote-btn:hover{
+.quote-btn:hover {
     background-color: #f8f9fa;
     color: #212529;
     transition: 300ms;
 }
 
-.team-card{
+.team-card {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.team-card img{
+.team-card img {
     width: 17vw;
     height: 16vw;
     border-radius: 50%;
     margin-bottom: 3vh;
 }
 
-.team-card .content{
+.team-card .content {
     text-align: center;
 }
 
-.team-card p{
- font-size: 20px;
+.team-card p {
+    font-size: 20px;
 }
 
-.section-four{
+.section-four {
     background-color: #212529;
 }
 
-.section-four p{
+.section-four p {
 
     color: #F8F9FA;
 
 }
 
-.row-cards{
+.row-cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -245,7 +246,7 @@ p{
     padding: 8vh 10vw;
 }
 
-.row-card{
+.row-card {
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 1vw;
@@ -254,57 +255,32 @@ p{
     margin-bottom: 2vh;
 }
 
-.row-card img{
+.row-card img {
     width: 80px;
     background: transparent;
     margin: 1vh 1vw;
 }
 
-.review{
-    margin:1vh 0;
+.review {
+    margin: 1vh 0;
     padding: 1vh 4vw 1vh 0;
 }
 
-.review img{
-    margin:0;
+.review img {
+    margin: 0;
 }
 
-.customer{
+.customer {
     font-weight: 600;
     font-size: 18px;
 }
 
 
-.section-five{
+.section-five {
     background-color: white;
-    padding: 5vh 0;
 }
 
-table{
-   
-    margin-left: auto;
-    margin-right: auto;
+.section-five img{
+    margin:0 10vw;
+    width: auto;
 }
-
-table,td,th{
-    border: 1px solid #495057;
-}
-
-td{
-    padding: 0;
-}
-th{
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    background-color: #212529;
-    color:#F8F9FA;
-    padding: 2vh 0;
-
-}
-td img{
-    height: 25vh;
-    
-}
-
-
