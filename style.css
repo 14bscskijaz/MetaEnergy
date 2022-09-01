@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    background-color: #F8F9FA;
+    ;
+}
+
+p,h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    width: 100%;
+    background: #f8f9fa;
+    z-index: 2;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-nav {
+    margin-left: 20vw;
+}
+
+.logo {
+    width: 5vw;
+
+}
+
+.right-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 3vw;
+    margin-right: 30vw;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #212529;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 42px;
+    line-height: 5vh;
+    letter-spacing: 5px;
+    margin-bottom: 1.5vh;
+    font-weight: 600;
+    text-align: center;
+    color: #212529;
+    background-color: #DEE2E6;
+    padding:3vh 0;
+    
+}
+
+.top-section {
+    padding-top: 8vh;
+}
+
+.slideshow {
+    position: relative;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.mySlides {
+    display: none;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.name
+{
+    font-size: 72px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    color: #F8F9FA;
+
+}
+
+.tagline{
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: oblique;
+    text-align: center;
+    color: #F8F9FA;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 6vw;
+    margin: 8vh 10vw;
+}
+
+.card {
+    border: .5px solid rgb(144, 144, 144);
+    border-radius: 15px;
+    transition: 250ms;
+    padding-bottom: 2vh;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.05);
+    transform: scale(1.05);
+    transition: 250ms;
+}
+
+.card img{
+    object-fit: contain;
+    width: 23vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 2vh;
+}
+
+.content{
+    padding:0 1.5vw;
+}
+
+h2{
+    margin-bottom: 1vh;
+    color: #343A40;
+}
+
+p{
+    color:#495057;
+}
+
+.section-two{
+    background-image:url("assets/pexels-pixabay-371917.jpg");
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-two *{
+    margin-left: 15vw;
+}
+
+
+.section-two p{
+    text-align: left;
+    color: #f8f9fa;
+    width: 35vw;
+}
+
+.section-two h1{
+    text-align: left;
+    color: #f8f9fa;
+    background: none;
+}
+
+.description{
+    font-size: 18px;
+    margin-bottom: 5vh;
+    line-height: 3vh;
+    letter-spacing: .02vw;
+}
+
+.quote-btn{
+    width: 14vw;
+    height: 5vh;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background:transparent;
+    color: #f8f9fa;
+    cursor: pointer;
+    transition-timing-function: ease-in;
+    transition: color 300ms,background-color 300ms;
+
+}
+
+.quote-btn:hover{
+    background-color: #f8f9fa;
+    color: #212529;
+    transition: 300ms;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-card img{
+    width: 17vw;
+    height: 16vw;
+    border-radius: 50%;
+    margin-bottom: 3vh;
+}
+
+.team-card .content{
+    text-align: center;
+}
+
+.team-card p{
+ font-size: 20px;
+}
+
+.section-four{
+    background-color: #212529;
+}
+
+.section-four p{
+
+    color: #F8F9FA;
+
+}
+
+.row-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8vh 10vw;
+}
+
+.row-card{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 1vw;
+    border: 1px solid #495057;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+
+.row-card img{
+    width: 80px;
+    background: transparent;
+    margin: 1vh 1vw;
+}
+
+.review{
+    margin:1vh 0;
+    padding: 1vh 4vw 1vh 0;
+}
+
+.review img{
+    margin:0;
+}
+
+.customer{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.section-five{
+    background-color: white;
+    padding: 5vh 0;
+}
+
+table{
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,td,th{
+    border: 1px solid #495057;
+}
+
+td{
+    padding: 0;
+}
+th{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #212529;
+    color:#F8F9FA;
+    padding: 2vh 0;
+
+}
+td img{
+    height: 25vh;
+    
+}
+
+

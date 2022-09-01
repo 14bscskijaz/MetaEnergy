@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meta Energy</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left-nav">
+            <img src="assets/logo.png">
+        </div>
+        <div class="right-nav">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Our Team</a>
+        </div>
+    </div>
+    <div class="top-section">
+        <div class="slideshow">
+            <img class="mySlides" src="assets/pexels-pixabay-433308.jpg">
+            <img class="mySlides" src="assets/pexels-kelly-4320473.jpg">
+            <img class="mySlides" src="assets/pexels-photo-6601008.jpeg">
+            <div class="title">
+                <p class="name">Meta Energy</p>
+                <p class="tagline">Bring Nature's Energy to your Home</p>
+            </div>
+        </div>
+    </div>
+    <div class="middle-section">
+        <div class="section-one">
+            <h1>Our Services</h1>
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/pexels-kelly-4320473.jpg">
+                    <div class="content">
+                        <h2>Discount Voucher</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus repellendus sit
+                            tempore
+                            earum eligendi exercitationem dignissimos, illo culpa architecto quidem.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/pexels-kelly-4320473.jpg">
+                    <div class="content">
+                        <h2>Fresh Healthy Food</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus repellendus sit
+                            tempore
+                            earum eligendi exercitationem dignissimos, illo culpa architecto quidem.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/pexels-kelly-4320473.jpg">
+                    <div class="content">
+                        <h2>Fast Home Delivery</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus repellendus sit
+                            tempore
+                            earum eligendi exercitationem dignissimos, illo culpa architecto quidem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-two">
+            <h1>Why Meta?</h1>
+            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Nemo, minima autem. Sit odit a tempore unde dicta?
+                Facere aliquid labore perferendis sunt, officia dolores dolore!</p>
+            <button class="quote-btn">Get A Quote</button>
+        </div>
+        <div class="section-three">
+            <h1>Our Team</h1>
+            <div class="cards">
+                <div class="team-card">
+                    <img src="assets/pexels-los-muertos-crew-8853536.jpg">
+                    <div class="content">
+                        <h2>Fresh Healthy Food</h2>
+                        <p>Lorem ipsum.</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="assets/pexels-los-muertos-crew-8853536.jpg">
+                    <div class="content">
+                        <h2>Fresh Healthy Food</h2>
+                        <p>Lorem ipsum.</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="assets/pexels-los-muertos-crew-8853536.jpg">
+                    <div class="content">
+                        <h2>Fresh Healthy Food</h2>
+                        <p>Lorem ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-four">
+            <h1>Satisfied Customers</h1>
+            <div class="row-cards">
+                <div class="row-card">
+                    <img src="assets/user-icon.png">
+                    <div class="review">
+                        <img src="assets/five-star.png">
+                        <p class="customer">Usama Nashai</p>
+                        <p class="comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam atque
+                            exercitationem illum!</p>
+                    </div>
+                </div>
+                <div class="row-card">
+                    <img src="assets/user-icon.png">
+                    <div class="review">
+                        <img src="assets/five-star.png">
+                        <p class="customer">Usama Nashai</p>
+                        <p class="comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam atque
+                            exercitationem illum!</p>
+                    </div>
+                </div>
+                <div class="row-card">
+                    <img src="assets/user-icon.png">
+                    <div class="review">
+                        <img src="assets/five-star.png">
+                        <p class="customer">Usama Nashai</p>
+                        <p class="comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam atque
+                            exercitationem illum!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="section-five">
+            <table>
+                <tr>
+                    <th>Official Importers of</th>
+                </tr>
+                <tr>
+                    <td> <img src="assets/Patners-final.jpg"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="section-six"></div>
+    </div>
+    </div>
+</body>
+
+</html>
+
+<!--This Script is for slideshow-->
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
