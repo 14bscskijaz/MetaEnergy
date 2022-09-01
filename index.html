@@ -36,7 +36,7 @@
         <div class="section-one">
             <h1>Our Services</h1>
             <div class="cards">
-                <div class="card">
+                <div class="card" onclick="openPage('services.html')">
                     <img src="assets/Solar-backgrond-pages.jpg">
                     <div class="content">
                         <h2>Homes</h2>
@@ -45,7 +45,7 @@
                             customers.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" onclick="openPage('services.html')">
                     <img src="assets/industries.jpg">
                     <div class="content">
                         <h2>Industries</h2>
@@ -55,7 +55,7 @@
                             market competitive. </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" onclick="openPage('services.html')">
                     <img src="assets/Commercial.jpg">
                     <div class="content">
                         <h2>Commercial</h2>
@@ -157,4 +157,8 @@
         x[myIndex - 1].style.display = "block";
         setTimeout(carousel, 4000); // Change image every 4 seconds
     }
+
+    function openPage(pageUrl){
+       window.open(pageUrl);
+     }
 </script>

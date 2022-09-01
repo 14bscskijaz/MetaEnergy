@@ -26,7 +26,7 @@ h2,h3 {
     left: 0;
     right: 0;
     top: 0;
-    background: #f8f9fa;
+    background: aliceblue;
     z-index: 2;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
@@ -52,7 +52,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     color: #212529;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 a:hover {
@@ -250,11 +250,10 @@ p {
 }
 
 .row-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2vh 10vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2vh;
+    padding: 2vh 20vw 4vh 20vw;
 }
 
 .row-card {
@@ -263,27 +262,35 @@ p {
     column-gap: 1vw;
     border: 1px solid #495057;
     border-radius: 10px;
-    margin-bottom: 2vh;
 }
 
 .row-card img {
-    width: 80px;
+    height: 85px;
+    width: 100px;
     background: transparent;
-    margin: 1vh 1vw;
+    display: block;
 }
 
 .review {
     margin: 1vh 0;
-    padding: 1vh 4vw 1vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    justify-content: space-evenly;
 }
 
 .review img {
     margin: 0;
+    width: 80px;
+    height: 15px;
+    object-fit: cover;
+    margin-bottom: .5vh;
 }
 
 .customer {
     font-weight: 600;
     font-size: 18px;
+    margin-bottom: .5vh;
 }
 
 
@@ -292,10 +299,10 @@ p {
 }
 
 .section-three img {
-    width: 70vw;
+    width: 60vw;
     display: block;
     margin: 0 auto;
-    padding: 4vh 0;
+    padding: 2vh 0;
 }
 
 
@@ -341,6 +348,7 @@ p {
     padding: 8vh 10vw;
     color: #212529;
     line-height: 25px;
+    background-color: white;
 }
 
 h3{
@@ -425,4 +433,29 @@ h3{
 .service button{
     background-color:#343A40;
     border-color: #343A40;
+}
+
+/** Starting the styling for contact html**/
+
+.contact-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10vh 0;
+    background-color: white;
+}
+
+.contact-card1,.contact-card2,.contact-card3{
+    background-color: white;
+    border-right: 1px solid #495057;
+    text-align: center;
+    padding:4vh 10vw;
+}
+
+.contact-section p{
+    margin:3vh 0;
+    font-size: 18px;
+}
+.contact-card3{
+    border: none;
 }
