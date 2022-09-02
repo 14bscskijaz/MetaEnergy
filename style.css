@@ -465,3 +465,17 @@ h3 {
 .contact-card3 {
     border: none;
 }
+
+
+/** From here we begin the media queries **/
+
+
+@media(max-width:650px) {
+    .name{
+        font-size: 4vw;
+    }
+
+    .tagline{
+        font-size: 2vw;
+    }
+}
