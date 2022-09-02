@@ -270,13 +270,14 @@ p {
 }
 
 .cust-img{
-    height: 90px;
-    width: 100px;
+    height: 95px;
+    width: 7vw;
     background: transparent;
     display: block;
     border-top-left-radius:10px;
     border-bottom-left-radius:10px;
-    
+    object-fit: fill;
+    margin: 0;
 }
 
 .review {
@@ -289,15 +290,15 @@ p {
 
 .review img {
     margin: 0;
-    width: 80px;
+    width: 5vw;
     height: 15px;
-    object-fit: cover;
+    object-fit: fill;
     margin-bottom: 1vh;
 }
 
 .customer {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.3vw;
     margin-bottom: .5vh;
 }
 
@@ -477,6 +478,15 @@ h3 {
 
 
 @media(max-width:650px) {
+
+    .right-nav{
+        margin-right: 5vw;
+    }
+
+    a{
+        font-size: 3.5vw;
+    }
+
     .name {
         font-size: 9vw;
     }
@@ -524,15 +534,16 @@ h3 {
         column-gap: 2vw;
     }
     .customer {
-        font-size: 16px;
+        font-size: 3vw;
     }
 
     .comment{
-        font-size: 14px;
+        font-size: 2.5vw;
     }
 
     .cust-img{
-        width: 20vw;
+        width: 18.5vw;
+        height: 110px;
     }
     .review img{
         width: 14vw;
