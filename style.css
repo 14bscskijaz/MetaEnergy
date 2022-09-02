@@ -471,11 +471,5 @@ h3 {
 
 
 @media(max-width:650px) {
-    .name{
-        font-size: 4vw;
-    }
-
-    .tagline{
-        font-size: 2vw;
-    }
+   
 }
