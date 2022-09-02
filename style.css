@@ -28,7 +28,7 @@ h3 {
     left: 0;
     right: 0;
     top: 0;
-    background: aliceblue;
+    background: white;
     z-index: 2;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
@@ -106,8 +106,7 @@ h1 {
     font-weight: 600;
     text-align: center;
     color: #F8F9FA;
-    display: block;
-
+    white-space: nowrap;
 }
 
 .tagline {
@@ -118,6 +117,7 @@ h1 {
     text-align: center;
     color: #F8F9FA;
     display: block;
+    white-space: nowrap;
 
 }
 
@@ -257,7 +257,8 @@ p {
     display: grid;
     grid-template-rows: auto auto auto;
     row-gap: 2vh;
-    padding: 2vh 20vw 4vh 20vw;
+    padding: 2vh 20vw 2vh 20vw;
+    margin-bottom: 2vh;
 }
 
 .row-card {
@@ -269,14 +270,15 @@ p {
     padding-right: 2vw;
 }
 
-.cust-img{
-    height: 90px;
-    width: 100px;
+.cust-img {
+    height: 95px;
+    width: 7vw;
     background: transparent;
     display: block;
-    border-top-left-radius:10px;
-    border-bottom-left-radius:10px;
-    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: fill;
+    margin: 0;
 }
 
 .review {
@@ -284,20 +286,20 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 
 .review img {
     margin: 0;
-    width: 80px;
+    width: 5vw;
     height: 15px;
-    object-fit: cover;
+    object-fit: fill;
     margin-bottom: 1vh;
 }
 
 .customer {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.3vw;
     margin-bottom: .5vh;
 }
 
@@ -310,7 +312,8 @@ p {
     width: 60vw;
     display: block;
     margin: 0 auto;
-    padding: 2vh 0;
+    padding: 1vh 0;
+    object-fit: fill;
 }
 
 
@@ -320,7 +323,7 @@ p {
 
 .footer .logo {
     width: 10vw;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 
@@ -347,6 +350,7 @@ p {
     font-weight: 600;
     text-align: center;
     color: #F8F9FA;
+    white-space: nowrap;
 }
 
 .mid-section {
@@ -477,6 +481,15 @@ h3 {
 
 
 @media(max-width:650px) {
+
+    .right-nav {
+        margin-right: 5vw;
+    }
+
+    a {
+        font-size: 3.8vw;
+    }
+
     .name {
         font-size: 9vw;
     }
@@ -511,31 +524,77 @@ h3 {
     }
 
     .quote-btn {
-        width: 20vw;
-        font-size: 2vw;
+        width: 24vw;
+        font-size: 2.5vw;
         padding: 0 1vw;
     }
 
-    .row-cards{
+    .row-cards {
         padding: 2vh 10vw 4vh 10vw;
     }
 
-    .row-card{
+    .row-card {
         column-gap: 2vw;
     }
+
     .customer {
-        font-size: 16px;
+        font-size: 3vw;
     }
 
-    .comment{
-        font-size: 14px;
+    .comment {
+        font-size: 2.5vw;
     }
 
-    .cust-img{
-        width: 20vw;
+    .cust-img {
+        width: 18.5vw;
+        height: 110px;
     }
-    .review img{
+
+    .review img {
         width: 14vw;
         margin-bottom: .4vh;
+    }
+
+    .bottom-section {
+        padding: 6vh 5vw 6vh 7vw;
+    }
+
+    .bottom-section p {
+        font-size: 3.5vw;
+    }
+
+    .footer .logo {
+        width: 25vw;
+    }
+
+
+    .section-three img {
+        width: 85vw;
+    }
+
+    .mid-section {
+        grid-template-columns: 1fr;
+        row-gap: 3vh;
+        padding: 4vh 10vw;
+    }
+    .text {
+        font-size: 3.5vw;
+        grid-column: span 1;
+        text-align: center;
+        margin-bottom: 2vh;
+        line-height: 4.5vh;
+    }
+
+    .card2 {
+       margin: 2vh 10vw;
+    }
+    
+    .card2 .text {
+        line-height: 4vh;
+        font-size: 3.2vw;
+    }
+
+    .card2 h3{
+        font-size: 4.4vw;
     }
 }
