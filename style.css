@@ -568,12 +568,11 @@ h3 {
         width: 25vw;
     }
 
-
     .section-three img {
         width: 85vw;
     }
 
-    .header{
+    .header {
         font-size: 9vw;
     }
 
@@ -582,6 +581,7 @@ h3 {
         row-gap: 3vh;
         padding: 4vh 10vw;
     }
+
     .text {
         font-size: 4vw;
         grid-column: span 1;
@@ -591,45 +591,63 @@ h3 {
     }
 
     .card2 {
-       margin: 2vh 10vw;
+        margin: 2vh 10vw;
     }
-    
+
     .card2 .text {
         line-height: 4vh;
         font-size: 4vw;
     }
 
-    .card2 h3{
+    .card2 h3 {
         font-size: 4.4vw;
     }
-.services
-{
-    padding: 8vh 4vw;
-    column-gap: 3vw;
-}
-.services img {
-    width:45vw;
-    border-radius: 5px;
-    object-fit: fill;
-}
-h2{
-    font-size: 3.8vw;
-}
 
-.service{
-    align-items: flex-start;
-}
+    .services {
+        padding: 8vh 4vw;
+        column-gap: 3vw;
+    }
 
-.service p {
-    padding: 0;
-    font-size: 2.8vw;
-    text-align: left;
-}
-.service button{
-    display: none;
-}
+    .services img {
+        width: 45vw;
+        border-radius: 5px;
+        object-fit: fill;
+    }
 
-.logo{
-    width: 22vw;
-}
+    h2 {
+        font-size: 3.8vw;
+    }
+
+    .service {
+        align-items: flex-start;
+    }
+
+    .service p {
+        padding: 0;
+        font-size: 2.8vw;
+        text-align: left;
+    }
+
+    .service button {
+        display: none;
+    }
+
+    .logo {
+        width: 22vw;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4vh 0;
+
+    }
+
+    .contact-card1,
+    .contact-card2,
+    .contact-card3 {
+        border-bottom: 1px solid #495057;
+        border-right: none;
+    }
 }
