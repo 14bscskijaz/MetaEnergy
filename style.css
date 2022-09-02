@@ -34,7 +34,7 @@ h3 {
 }
 
 .left-nav {
-    padding-left: 14vw;
+    padding-left: 5vw;
 }
 
 .logo {
@@ -47,7 +47,7 @@ h3 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 3vw;
-    margin-right: 24vw;
+    margin-right: 10vw;
 }
 
 a {
@@ -476,15 +476,15 @@ h3 {
 
 @media(max-width:650px) {
     .name {
-        font-size: 7vw;
+        font-size: 9vw;
     }
 
     .tagline {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     h1 {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .cards {
@@ -529,6 +529,9 @@ h3 {
         font-size: 14px;
     }
 
+    .cust-img{
+        width: 20vw;
+    }
     .review img{
         width: 14vw;
         margin-bottom: .4vh;
