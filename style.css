@@ -257,7 +257,8 @@ p {
     display: grid;
     grid-template-rows: auto auto auto;
     row-gap: 2vh;
-    padding: 2vh 20vw 4vh 20vw;
+    padding: 2vh 20vw 2vh 20vw;
+    margin-bottom: 2vh;
 }
 
 .row-card {
