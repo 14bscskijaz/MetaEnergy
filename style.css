@@ -63,7 +63,7 @@ a:hover {
 
 
 h1 {
-    font-size: 42px;
+    font-size: 3vw;
     line-height: 5vh;
     letter-spacing: 5px;
     margin-bottom: 1.5vh;
@@ -471,5 +471,15 @@ h3 {
 
 
 @media(max-width:650px) {
-   
+    .name{
+        font-size: 7vw;
+    }
+
+    .tagline{
+        font-size: 4vw;
+    }
+
+    h1{
+        font-size: 6vw;
+    }
 }
