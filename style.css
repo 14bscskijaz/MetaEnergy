@@ -107,6 +107,7 @@ h1 {
     text-align: center;
     color: #F8F9FA;
     white-space: nowrap;
+    transition: 1000ms;
 }
 
 .tagline {
