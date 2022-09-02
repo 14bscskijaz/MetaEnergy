@@ -94,7 +94,7 @@ h1 {
 
 .title {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -142,7 +142,7 @@ h1 {
 
 .card img {
     object-fit: contain;
-    width: 23vw;
+    width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-bottom: 2vh;
@@ -197,7 +197,7 @@ p {
 .quote-btn {
     width: 14vw;
     height: 5vh;
-    font-size: 16px;
+    font-size: 1.4vw;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 20px;
@@ -253,7 +253,7 @@ p {
 
 .row-cards {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
     row-gap: 2vh;
     padding: 2vh 20vw 4vh 20vw;
 }
@@ -264,13 +264,17 @@ p {
     column-gap: 1vw;
     border: 1px solid #495057;
     border-radius: 10px;
+    padding-right: 2vw;
 }
 
-.row-card img {
-    height: 85px;
+.cust-img{
+    height: 90px;
     width: 100px;
     background: transparent;
     display: block;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    
 }
 
 .review {
@@ -278,7 +282,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content:flex-start;
 }
 
 .review img {
@@ -286,7 +290,7 @@ p {
     width: 80px;
     height: 15px;
     object-fit: cover;
-    margin-bottom: .5vh;
+    margin-bottom: 1vh;
 }
 
 .customer {
@@ -471,15 +475,62 @@ h3 {
 
 
 @media(max-width:650px) {
-    .name{
+    .name {
         font-size: 7vw;
     }
 
-    .tagline{
+    .tagline {
         font-size: 4vw;
     }
 
-    h1{
+    h1 {
         font-size: 6vw;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        row-gap: 4vh;
+        margin: 8vh 20vw;
+    }
+
+    .card {
+        padding-bottom: 4vh;
+    }
+
+    .content {
+        padding: 0 3vw;
+        text-align: center;
+
+    }
+
+    .section-two p {
+        width: 70vw;
+        line-height: 3.5vh;
+    }
+
+    .quote-btn {
+        width: 20vw;
+        font-size: 2vw;
+        padding: 0 1vw;
+    }
+
+    .row-cards{
+        padding: 2vh 10vw 4vh 10vw;
+    }
+
+    .row-card{
+        column-gap: 2vw;
+    }
+    .customer {
+        font-size: 16px;
+    }
+
+    .comment{
+        font-size: 14px;
+    }
+
+    .review img{
+        width: 14vw;
+        margin-bottom: .4vh;
     }
 }
