@@ -305,6 +305,9 @@ p {
     margin-bottom: .5vh;
 }
 
+.icon{
+    width: 100px;
+}
 
 .section-three {
     background-color: white;
@@ -320,14 +323,46 @@ p {
 
 
 .footer {
-    background-color: #F8F9FA;
+    background-color: #212529;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5vw;
+    padding: 5vh 10vw;
+    color: #F8F9FA;
+}
+
+ul{
+    font-size: 20px;
+    text-align:center;
+}
+li{
+    list-style-type: disc;
+    text-align: center;
+    margin-bottom: 1vh;
+    font-size: 16px;
+}
+
+.footer p{
+    text-align: center;
+    margin-bottom: 1vh;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F8F9FA;
+
 }
 
 .footer .logo {
-    width: 10vw;
+    width: 12vw;
     object-fit: fill;
 }
 
+span{
+    border-top: .5px solid #DEE2E6;
+    grid-column: span 4;
+    margin-top: 4vh;
+    padding-top:  4vh;
+    text-align: center;
+}
 
 /** From here styling of About.html begins **/
 
@@ -650,5 +685,19 @@ h3 {
     .contact-card3 {
         border-bottom: 1px solid #495057;
         border-right: none;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        row-gap: 2vh;
+        padding: 3vh 10vw;
+    }
+
+    span{
+        grid-column: span 1;
+    }
+
+    ul,li,.footer p{
+    text-align: left;
     }
 }
