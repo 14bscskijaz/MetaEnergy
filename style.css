@@ -350,6 +350,7 @@ p {
     font-weight: 600;
     text-align: center;
     color: #F8F9FA;
+    white-space: nowrap;
 }
 
 .mid-section {
@@ -570,4 +571,30 @@ h3 {
     .section-three img {
         width: 85vw;
     }
+
+    .mid-section {
+        grid-template-columns: 1fr;
+        row-gap: 3vh;
+        padding: 4vh 10vw;
     }
+    .text {
+        font-size: 3.5vw;
+        grid-column: span 1;
+        text-align: center;
+        margin-bottom: 2vh;
+        line-height: 4.5vh;
+    }
+
+    .card2 {
+       margin: 2vh 10vw;
+    }
+    
+    .card2 .text {
+        line-height: 4vh;
+        font-size: 3.2vw;
+    }
+
+    .card2 h3{
+        font-size: 4.4vw;
+    }
+}
