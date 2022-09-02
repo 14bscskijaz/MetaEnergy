@@ -270,13 +270,13 @@ p {
     padding-right: 2vw;
 }
 
-.cust-img{
+.cust-img {
     height: 95px;
     width: 7vw;
     background: transparent;
     display: block;
-    border-top-left-radius:10px;
-    border-bottom-left-radius:10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     object-fit: fill;
     margin: 0;
 }
@@ -286,7 +286,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 
 .review img {
@@ -312,7 +312,8 @@ p {
     width: 60vw;
     display: block;
     margin: 0 auto;
-    padding: 2vh 0;
+    padding: 1vh 0;
+    object-fit: fill;
 }
 
 
@@ -322,7 +323,7 @@ p {
 
 .footer .logo {
     width: 10vw;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 
@@ -480,12 +481,12 @@ h3 {
 
 @media(max-width:650px) {
 
-    .right-nav{
+    .right-nav {
         margin-right: 5vw;
     }
 
-    a{
-        font-size: 3.75vw;
+    a {
+        font-size: 3.8vw;
     }
 
     .name {
@@ -527,36 +528,46 @@ h3 {
         padding: 0 1vw;
     }
 
-    .row-cards{
+    .row-cards {
         padding: 2vh 10vw 4vh 10vw;
     }
 
-    .row-card{
+    .row-card {
         column-gap: 2vw;
     }
+
     .customer {
         font-size: 3vw;
     }
 
-    .comment{
+    .comment {
         font-size: 2.5vw;
     }
 
-    .cust-img{
+    .cust-img {
         width: 18.5vw;
         height: 110px;
     }
-    
-    .review img{
+
+    .review img {
         width: 14vw;
         margin-bottom: .4vh;
     }
 
-    .bottom-section{
-        padding: 6vh 10vw 6vh 10vw;
+    .bottom-section {
+        padding: 6vh 5vw 6vh 7vw;
     }
 
-    .bottom-section p{
+    .bottom-section p {
         font-size: 3.5vw;
     }
-}
+
+    .footer .logo {
+        width: 25vw;
+    }
+
+
+    .section-three img {
+        width: 85vw;
+    }
+    }
