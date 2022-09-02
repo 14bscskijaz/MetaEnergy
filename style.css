@@ -604,8 +604,8 @@ h3 {
     }
 .services
 {
-    padding: 8vh 5vw;
-    column-gap: 2vw;
+    padding: 8vh 4vw;
+    column-gap: 3vw;
 }
 .services img {
     width:45vw;
@@ -630,6 +630,6 @@ h2{
 }
 
 .logo{
-    width: 20vw;
+    width: 22vw;
 }
 }
