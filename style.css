@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 body {
     margin: 0;
@@ -11,7 +12,8 @@ body {
 
 p,
 h1,
-h2,h3 {
+h2,
+h3 {
     margin: 0;
     padding: 0;
 }
@@ -32,7 +34,7 @@ h2,h3 {
 }
 
 .left-nav {
-    padding-left: 20vw;
+    padding-left: 14vw;
 }
 
 .logo {
@@ -49,16 +51,16 @@ h2,h3 {
 }
 
 a {
+    font-family: 'Dosis', sans-serif;
     text-decoration: none;
     font-size: 20px;
     color: #212529;
-    font-weight: 500;
 }
 
 a:hover {
-    font-weight: 600;
-    font-size: 21px;
+    color: #495057;
 }
+
 
 h1 {
     font-size: 42px;
@@ -99,7 +101,7 @@ h1 {
 
 
 .name {
-    font-size: 72px;
+    font-size: 5vw;
     letter-spacing: 1px;
     font-weight: 600;
     text-align: center;
@@ -108,7 +110,7 @@ h1 {
 }
 
 .tagline {
-    font-size: 32px;
+    font-size: 2vw;
     letter-spacing: 1px;
     font-weight: 400;
     font-style: oblique;
@@ -275,7 +277,7 @@ p {
     margin: 1vh 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;    
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
@@ -318,10 +320,11 @@ p {
 
 /** From here styling of About.html begins **/
 
-.image-div{
+.image-div {
     position: relative;
 
 }
+
 .bg-image {
     width: 100%;
     height: 60vh;
@@ -340,7 +343,7 @@ p {
     color: #F8F9FA;
 }
 
-.mid-section{
+.mid-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 4vw;
@@ -351,59 +354,59 @@ p {
     background-color: white;
 }
 
-h3{
+h3 {
     font-size: 24px;
     text-align: center;
     font-weight: 600;
 }
 
-.text{
+.text {
     font-size: 18px;
-    grid-column:span 2;
+    grid-column: span 2;
 }
 
-.card2{
+.card2 {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 3vh 3vw;
-    background-color:#e1ecf7;
-    color:#212529;
+    background-color: #e1ecf7;
+    color: #212529;
 }
 
-.card2 .text
-{
+.card2 .text {
     line-height: 20px;
     font-size: 16px;
     text-align: center;
-    color:#212529;
+    color: #212529;
 
 }
 
-.card2 h3{
+.card2 h3 {
     padding-bottom: 1vh;
     margin-bottom: 2vh;
     border-bottom: 1px solid #212529;
 }
 
 
-.bottom-section{
+.bottom-section {
     background-color: #002855;
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 6vh 4vw;
+    justify-content: space-between;
+    padding: 6vh 14vw 6vh 12vw;
 }
-.bottom-section p{
+
+.bottom-section p {
     color: #F8F9FA;
     font-size: 24px;
+    line-height: 5vh;
 }
 
 
 /** From here styling of services.html begins **/
 
 
-.services
-{
+.services {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5vw;
@@ -412,32 +415,32 @@ h3{
 
 }
 
-.services img{
+.services img {
     width: 40vw;
     border-radius: 5px;
 }
 
-.service{
+.service {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    justify-content:space-evenly;
+    align-items: flex-start;
+    justify-content: space-evenly;
     padding: 4vh 0;
 }
 
-.service p{
-    padding:0;
+.service p {
+    padding: 0;
 }
 
 
-.service button{
-    background-color:#343A40;
+.service button {
+    background-color: #343A40;
     border-color: #343A40;
 }
 
 /** Starting the styling for contact html**/
 
-.contact-section{
+.contact-section {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -445,17 +448,34 @@ h3{
     background-color: white;
 }
 
-.contact-card1,.contact-card2,.contact-card3{
+.contact-card1,
+.contact-card2,
+.contact-card3 {
     background-color: white;
     border-right: 1px solid #495057;
     text-align: center;
-    padding:4vh 10vw;
+    padding: 4vh 10vw;
 }
 
-.contact-section p{
-    margin:3vh 0;
+.contact-section p {
+    margin: 3vh 0;
     font-size: 18px;
 }
-.contact-card3{
+
+.contact-card3 {
     border: none;
+}
+
+
+/** From here we begin the media queries **/
+
+
+@media(max-width:650px) {
+    .name{
+        font-size: 4vw;
+    }
+
+    .tagline{
+        font-size: 2vw;
+    }
 }
