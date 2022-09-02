@@ -484,7 +484,7 @@ h3 {
     }
 
     a{
-        font-size: 3.5vw;
+        font-size: 3.75vw;
     }
 
     .name {
@@ -545,8 +545,17 @@ h3 {
         width: 18.5vw;
         height: 110px;
     }
+    
     .review img{
         width: 14vw;
         margin-bottom: .4vh;
+    }
+
+    .bottom-section{
+        padding: 6vh 10vw 6vh 10vw;
+    }
+
+    .bottom-section p{
+        font-size: 3.5vw;
     }
 }
