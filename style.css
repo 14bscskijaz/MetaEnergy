@@ -574,7 +574,7 @@ h3 {
     }
 
     .header{
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .mid-section {
@@ -583,7 +583,7 @@ h3 {
         padding: 4vh 10vw;
     }
     .text {
-        font-size: 3.5vw;
+        font-size: 4vw;
         grid-column: span 1;
         text-align: center;
         margin-bottom: 2vh;
@@ -596,7 +596,7 @@ h3 {
     
     .card2 .text {
         line-height: 4vh;
-        font-size: 3.2vw;
+        font-size: 4vw;
     }
 
     .card2 h3{
