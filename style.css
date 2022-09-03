@@ -50,7 +50,7 @@ h3 {
     margin-right: 10vw;
 }
 
-a {
+.navbar a {
     font-family: 'Dosis', sans-serif;
     text-decoration: none;
     font-size: 20px;
@@ -158,7 +158,7 @@ h1 {
 h2 {
     margin-bottom: 1vh;
     color: #343A40;
-    font-size: 48px;
+    font-size: 22px;
 }
 
 p {
@@ -199,10 +199,11 @@ p {
 }
 
 .quote-btn {
-    width: 14vw;
+    width: max-content;
+    padding:1vh 2vw;
     height: 5vh;
-    font-size: 1.4vw;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
     letter-spacing: 1px;
     border-radius: 20px;
     border: 1px solid white;
@@ -308,6 +309,7 @@ p {
 .icon{
     width: 30px;
     height: 30px;
+    margin-right: 2vw;
 }
 
 .section-three {
@@ -327,24 +329,35 @@ p {
     background-color: #212529;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 5vw;
+    column-gap: 4vw;
     padding: 5vh 10vw;
     color: #F8F9FA;
 }
 
 ul{
-    font-size: 20px;
-    text-align:center;
-}
-li{
-    list-style-type: disc;
-    text-align: center;
-    margin-bottom: 1vh;
-    font-size: 16px;
+    font-size: 18px;
+    text-align: left;
+    color: #cfd0d1;
+    padding: 0;
 }
 
+li{
+    list-style-type: disc;
+    text-align: left;
+    margin-bottom: 1vh;
+    font-size: 16px;
+    color: #F8F9FA;
+    margin-left: 1.1vw;
+}
+
+a{
+    color: #F8F9FA;
+    text-decoration: none;
+}
+
+
 .footer p{
-    text-align: center;
+    text-align: left;
     margin-bottom: 1vh;
     font-size: 16px;
     font-weight: 600;
@@ -353,7 +366,9 @@ li{
 }
 
 .footer .logo {
-    width: 12vw;
+    width: 10vw;
+    height: 20vh;
+    margin:0;
     object-fit: fill;
 }
 
