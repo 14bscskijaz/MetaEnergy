@@ -38,7 +38,7 @@ h3 {
 }
 
 .logo {
-    height: 20vh;
+    height: 21vh;
     margin: auto;
     display: block;
 }
@@ -274,7 +274,7 @@ p {
 }
 
 .cust-img {
-    height: 95px;
+    height: 17vh;
     width: 7vw;
     background: transparent;
     display: block;
@@ -323,7 +323,6 @@ p {
     padding: 1vh 0;
     object-fit: fill;
 }
-
 
 .footer {
     background-color: #212529;
