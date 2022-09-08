@@ -280,7 +280,7 @@ p {
 }
 
 .cust-img {
-    height: 17vh;
+    height: 11vh;
     width: 7vw;
     background: transparent;
     display: block;
@@ -301,7 +301,7 @@ p {
 .review img {
     margin: 0;
     width: 5vw;
-    height: 15px;
+    height: 1.5vh;
     object-fit: fill;
     margin-bottom: 1vh;
 }
