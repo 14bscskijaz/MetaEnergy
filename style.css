@@ -55,10 +55,13 @@ a {
     text-decoration: none;
     font-size: 20px;
     color: #212529;
-}
+    padding-bottom: .5vh;
+    transition: all .15s ease;
+    transition-delay: 0;}
 
 a:hover {
-    color: #495057;
+    color: #386598;
+    border-bottom: 1px solid #386598;
 }
 
 
@@ -72,6 +75,7 @@ h1 {
     color: #212529;
     background-color: #DEE2E6;
     padding: 3vh 0;
+    
 }
 
 .top-section {
@@ -94,9 +98,12 @@ h1 {
 
 .title {
     position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: block;
+    top: 35%; right: 50%;
+    transform: translateX(50%);
+    transition: all 1.25s ease;
+
+
 }
 
 
@@ -107,7 +114,6 @@ h1 {
     text-align: center;
     color: #F8F9FA;
     white-space: nowrap;
-    transition: 1000ms;
 }
 
 .tagline {
@@ -158,7 +164,7 @@ h1 {
 h2 {
     margin-bottom: 1vh;
     color: #343A40;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 p {
