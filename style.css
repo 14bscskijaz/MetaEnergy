@@ -280,7 +280,7 @@ p {
 }
 
 .cust-img {
-    height: 11vh;
+    height: 12vh;
     width: 7vw;
     background: transparent;
     display: block;
@@ -300,8 +300,7 @@ p {
 
 .review img {
     margin: 0;
-    width: 5vw;
-    height: 1.5vh;
+    width: 4.5vw;
     object-fit: fill;
     margin-bottom: 1vh;
 }
@@ -310,6 +309,10 @@ p {
     font-weight: 600;
     font-size: 1.3vw;
     margin-bottom: .5vh;
+}
+
+.comment {
+    font-size: 1.1vw;
 }
 
 .icon{
