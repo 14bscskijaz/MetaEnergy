@@ -123,7 +123,7 @@ h1 {
     justify-content: space-around;
     top: 35%; right: 50%;
     transform: translateX(50%);
-    transition: all 1.25s ease;
+    transition: all 1.75s ease;
 }
 
 
@@ -311,7 +311,7 @@ p {
 }
 
 .section-five {
-    background-color: #212529;
+    background-color: seagreen;
     padding: 2vh 0;
 }
 
