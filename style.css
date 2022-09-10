@@ -18,6 +18,16 @@ h3 {
     padding: 0;
 }
 
+.wa-icon{
+    position: fixed;
+    height: 5.5vh;
+    left: 2.5vw;
+    top:90vh;
+    z-index:2;
+    border: .4vw solid #25D366;
+    border-radius: 3.25vh;
+    background-color: #25D366;
+}
 
 .navbar {
     position: fixed;
