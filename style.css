@@ -55,7 +55,7 @@ h3 {
 
 .right-nav {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     column-gap: 3vw;
     margin-right: 10vw;
 }
@@ -64,13 +64,14 @@ h3 {
     font-family: 'Dosis', sans-serif;
     text-decoration: none;
     font-size: 20px;
-    color: #212529;
     padding-bottom: .5vh;
     transition: all .15s ease;
-    transition-delay: 0;}
-
-a:hover {
+    transition-delay: 0;
     color: #386598;
+
+}
+
+.navbar a:hover {
     border-bottom: 1px solid #386598;
 }
 
