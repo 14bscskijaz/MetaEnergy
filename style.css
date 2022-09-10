@@ -327,7 +327,7 @@ p {
 .row-cards {
     display: grid;
     grid-template-rows: auto auto auto;
-    row-gap: 2vh;
+    row-gap: 3vh;
     padding: 2vh 20vw 2vh 20vw;
     margin-bottom: 2vh;
 }
@@ -336,18 +336,16 @@ p {
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 1vw;
-    border: 1px solid #495057;
     border-radius: 10px;
     padding-right: 2vw;
 }
 
 .cust-img {
-    height: 12vh;
-    width: 7vw;
+    height: 10vh;
+    border-radius: 5vh;
+    width: 6vw;
     background: transparent;
     display: block;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
     object-fit: fill;
     margin: 0;
 }
