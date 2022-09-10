@@ -668,8 +668,11 @@ h3 {
     }
 
     .cust-img {
-        width: 18.5vw;
-        height: 110px;
+        width: 9.5vw;
+        height: 7vh;
+        border-radius: 5vw;
+        align-self: center;
+        
     }
 
     .review img {
