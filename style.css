@@ -39,7 +39,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 9.5vh;
+    height: 9vh;
     left: 0;
     right: 0;
     top: 0;
@@ -346,8 +346,8 @@ p {
 }
 
 .small-icon{
-    width: 1.75vw;
-    height: 3.5vh;
+    width: 16px;
+    height: 20px;
     margin-right:1vw;
 }
 .section-three {
@@ -376,6 +376,7 @@ ul{
     text-align: left;
     color: #cfd0d1;
     padding: 0;
+    text-decoration: underline;
 }
 
 li{
@@ -385,7 +386,7 @@ li{
     margin-bottom: 2vh;
     font-size: 16px;
     color: #F8F9FA;
-    background-size:2.5vh;
+    background-size:1.75vh;
     background-repeat: no-repeat;
     background-position: left center;
     background-image:url('assets/arrow-icon.png');
