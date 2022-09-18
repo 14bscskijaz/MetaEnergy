@@ -304,9 +304,9 @@ p {
 }
 
 .cust-img {
-    height: 10vh;
+    height: 70px;
     border-radius: 50%;
-    width: 5vw;
+    width: 70px;
     background: transparent;
     display: block;
     object-fit: fill;
@@ -645,9 +645,9 @@ h3 {
     }
 
     .cust-img {
-        width: 9.5vw;
-        height: 7vh;
-        border-radius: 5vw;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
         align-self: center;
         
     }
