@@ -1,0 +1,23 @@
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5vw;
+    row-gap: 24vh;
+    margin: 25vh 12vw;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    width: 22vw;
+}
+
+
+.products img{
+    transform: translate(0,-80px) rotate(45deg);
+    width: 160px;
+    height: 160px;
+}
