@@ -12,7 +12,7 @@ body {
 
 * {
     box-sizing: border-box;
-  }
+}
 
 p,
 h1,
@@ -22,12 +22,12 @@ h3 {
     padding: 0;
 }
 
-.wa-icon{
+.wa-icon {
     position: fixed;
     height: 7vh;
     left: 2.5vw;
-    top:90vh;
-    z-index:2;
+    top: 90vh;
+    z-index: 2;
     border: .4vw solid #25D366;
     border-radius: 50%;
     background-color: #25D366;
@@ -58,11 +58,17 @@ h3 {
     display: block;
 }
 
-.right-nav {
+.middle-nav {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     column-gap: 3vw;
     margin-right: 8vw;
+}
+
+.right-nav {
+    display: none;
+    width: 50px;
+    height: 50px;
 }
 
 .navbar a {
@@ -91,7 +97,7 @@ h1 {
     color: #212529;
     background-color: #DEE2E6;
     padding: 3vh 0;
-    
+
 }
 
 .top-section {
@@ -120,7 +126,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    top: 35%; right: 50%;
+    top: 35%;
+    right: 50%;
     transform: translateX(50%);
     transition: all 1.75s ease;
 }
@@ -200,12 +207,12 @@ p {
     background-size: cover;
 }
 
-.section-two-text{
+.section-two-text {
     position: relative;
-    top: 28%    ;
+    top: 28%;
 }
 
-.section-two{
+.section-two {
     padding-left: 15vw;
 }
 
@@ -231,7 +238,7 @@ p {
 
 .quote-btn {
     width: max-content;
-    padding:1vh 2vw;
+    padding: 1vh 2vw;
     height: 5vh;
     font-size: 14px;
     font-weight: 400;
@@ -339,17 +346,18 @@ p {
     font-size: 1.1vw;
 }
 
-.icon{
+.icon {
     width: 30px;
     height: 30px;
     margin-right: 1vw;
 }
 
-.small-icon{
+.small-icon {
     width: 16px;
     height: 20px;
-    margin-right:1vw;
+    margin-right: 1vw;
 }
+
 .section-three {
     background-color: white;
 }
@@ -371,7 +379,7 @@ p {
     color: #F8F9FA;
 }
 
-ul{
+ul {
     font-size: 18px;
     text-align: left;
     color: #cfd0d1;
@@ -379,28 +387,28 @@ ul{
     text-decoration: underline;
 }
 
-li{
+li {
     list-style-type: none;
     text-align: left;
     padding-left: 1.5vw;
     margin-bottom: 2vh;
     font-size: 16px;
     color: #F8F9FA;
-    background-size:1.75vh;
+    background-size: 1.75vh;
     background-repeat: no-repeat;
     background-position: left center;
-    background-image:url('assets/arrow-icon.png');
+    background-image: url('assets/arrow-icon.png');
 
 }
 
 
-a{
+a {
     color: #F8F9FA;
     text-decoration: none;
 }
 
 
-.footer p{
+.footer p {
     text-align: left;
     margin-bottom: 2vh;
     font-size: 16px;
@@ -412,15 +420,15 @@ a{
 .footer .logo {
     width: 10vw;
     height: 20vh;
-    margin:0;
+    margin: 0;
     object-fit: fill;
 }
 
-span{
+span {
     border-top: .5px solid #DEE2E6;
     grid-column: span 4;
     margin-top: 4vh;
-    padding-top:  4vh;
+    padding-top: 4vh;
     text-align: center;
 }
 
@@ -581,8 +589,18 @@ h3 {
 
 @media(max-width:650px) {
 
-    .right-nav {
+    .right-nav{
+        display: inline;
+        background-color: black;
+    }
+
+    .middle-nav {
+        display: none;
         margin-right: 5vw;
+        grid-template-columns: auto;
+        column-gap: 0vw;
+        margin-right: 2vw;
+        row-gap: 2vh;
     }
 
     a {
@@ -649,7 +667,7 @@ h3 {
         height: 55px;
         border-radius: 50%;
         align-self: center;
-        
+
     }
 
     .review img {
@@ -758,11 +776,13 @@ h3 {
         padding: 3vh 10vw;
     }
 
-    span{
+    span {
         grid-column: span 1;
     }
 
-    ul,li,.footer p{
-    text-align: left;
+    ul,
+    li,
+    .footer p {
+        text-align: left;
     }
 }
