@@ -39,3 +39,13 @@
         row-gap: 6vh;
         margin: 5vh 8vw;
     }
+
+    .product{
+        padding: 0 6vw 4vh 6vw;
+    }
+
+    .products img{
+        width: 140px;
+        height: 100px;
+    }
+    
