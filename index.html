@@ -22,9 +22,9 @@
             <a href="contact.html">Contact Us</a>
         </div>
         <div class="right-nav">
-            <img class="menu-icon" onclick="" src="assets/menu.png">
+            <img id="menu-icon" onclick="myFunction()" src="assets/menu.png">
         </div>
-        <div class="menu">
+        <div id="menu">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="products.html">Products</a>
@@ -206,4 +206,18 @@
     function openPage(pageUrl) {
         window.open(pageUrl);
     }
+
+    function myFunction() {
+  var x = document.getElementById("menu");
+  var y = document.getElementById("menu-icon")
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    y.style.display = "inline";
+
+  } else {
+    x.style.display = "block";
+    y.style.display = "none";
+
+  }
+}
 </script>
