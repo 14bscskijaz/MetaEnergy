@@ -67,8 +67,21 @@ h3 {
 
 .right-nav {
     display: none;
+}
+
+.right-nav img{
     width: 50px;
     height: 50px;
+    cursor: pointer;
+}
+
+.menu{
+    background-color: white;
+    float: right;
+    width: 20vw;
+    padding: 2vh 5vw;
+    transition: all 1.75s ease;
+
 }
 
 .navbar a {
@@ -591,16 +604,10 @@ h3 {
 
     .right-nav{
         display: inline;
-        background-color: black;
     }
 
     .middle-nav {
         display: none;
-        margin-right: 5vw;
-        grid-template-columns: auto;
-        column-gap: 0vw;
-        margin-right: 2vw;
-        row-gap: 2vh;
     }
 
     a {
