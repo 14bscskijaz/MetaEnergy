@@ -94,14 +94,13 @@ h3 {
     text-decoration: none;
     font-size: 20px;
     padding-bottom: .5vh;
-    transition: all .3s ease;
-    transition-delay: 0;
+    transition: all .3s ease-in;
     color: black;
 
 }
 
 .navbar a:hover {
-    border-bottom: 1px solid #386598;
+    border-bottom: .5px solid #386598;
 }
 
 
@@ -617,8 +616,12 @@ h3 {
 
     .navbar a {
         display: block;
-        margin-bottom: 2vh;
         color: white;
+        margin: 2vh 25vw;
+    }
+
+    .navbar a:hover {
+        border-bottom: .5px solid white;
     }
 
     a {
