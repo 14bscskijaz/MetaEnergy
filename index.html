@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>Meta Energy</title>
 </head>
 
@@ -32,16 +33,17 @@
             <a href="contact.html">Contact Us</a>
         </div>
     </div>
-        <img class="wa-icon" src="assets/whatsapp-icon.png" onclick="parent.open('https://api.whatsapp.com/send?phone=03188662171')">
+    <img class="wa-icon" src="assets/whatsapp-icon.png"
+        onclick="parent.open('https://api.whatsapp.com/send?phone=03188662171')">
     <div class="top-section">
-            <div class="slideshow">
-                <img class="mySlides" src="assets/pexels-pixabay-433308.jpg">
-                <img class="mySlides" src="assets/pexels-kelly-4320473.jpg">
-                <img class="mySlides" src="assets/pexels-photo-6601008.jpeg">
-                <div class="title">
-                    <p class="name">Meta Energy</p>
-                    <p class="tagline">Bring Nature's Energy to your Home</p>
-                </div>
+        <div class="slideshow">
+            <img class="mySlides" src="assets/pexels-pixabay-433308.jpg">
+            <img class="mySlides" src="assets/pexels-kelly-4320473.jpg">
+            <img class="mySlides" src="assets/pexels-photo-6601008.jpeg">
+            <div class="title">
+                <p class="name">Meta Energy</p>
+                <p class="tagline">Bring Nature's Energy to your Home</p>
+            </div>
         </div>
     </div>
     <div class="middle-section">
@@ -52,8 +54,10 @@
                     <img src="assets/Solar-backgrond-pages.jpg">
                     <div class="content">
                         <h2>Homes</h2>
-                        <p>Energy taxation is fluctuating every other day. If you want to keep your electricity bills at an all time low,
-                            we are providing the most affordable solar solution to all your high expenditure problems.</p>
+                        <p>Energy taxation is fluctuating every other day. If you want to keep your electricity bills at
+                            an all time low,
+                            we are providing the most affordable solar solution to all your high expenditure problems.
+                        </p>
                     </div>
                 </div>
                 <div class="card" onclick="openPage('services.html')">
@@ -70,7 +74,8 @@
                     <img src="assets/Commercial.jpg">
                     <div class="content">
                         <h2>Commercial</h2>
-                        <p>For the sake of providing the lowest per unit electricity costs and upgrade your own productivity,
+                        <p>For the sake of providing the lowest per unit electricity costs and upgrade your own
+                            productivity,
                             You need to opt for our Solar solution for our commercial consumers.</p>
                     </div>
                 </div>
@@ -206,15 +211,4 @@
     function openPage(pageUrl) {
         window.open(pageUrl);
     }
-
-    function myFunction() {
-  var x = document.getElementById("menu");
-  var y = document.getElementById("menu-icon")
-  if (x.style.display === "block") {
-    x.style.display = "none";
-
-  } else {
-    x.style.display = "block";
-  }
-}
 </script>
