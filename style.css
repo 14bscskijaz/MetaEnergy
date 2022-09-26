@@ -589,9 +589,8 @@ h3 {
 .contact-card2,
 .contact-card3 {
     background-color: white;
-    border-right: 1px solid #495057;
     text-align: center;
-    padding: 4vh 10vw;
+    padding: 6vh 8vw;
 }
 
 .contact-section p {
@@ -599,8 +598,10 @@ h3 {
     font-size: 18px;
 }
 
-.contact-card3 {
-    border: none;
+.contact-card2 {
+    border-right: 1px solid #495057;
+    border-left: 1px solid #495057;
+
 }
 
 
